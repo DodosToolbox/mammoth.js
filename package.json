@@ -2,7 +2,7 @@
   "name": "mammoth",
   "version": "1.6.0",
   "author": "Michael Williamson <mike@zwobble.org>",
-  "description": "Convert Word documents from docx to simple HTML and Markdown",
+  "description": "Convert Word documents from docx to simple HTML and Markdown. Forked from mammoth, inspired from mammoth-colors.",
   "keywords": [
     "docx",
     "html",
@@ -14,7 +14,7 @@
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mwilliamson/mammoth.js.git"
+    "url": "https://github.com/DodosToolbox/mammoth.js"
   },
   "dependencies": {
     "@xmldom/xmldom": "^0.8.6",
@@ -50,8 +50,7 @@
   "scripts": {
     "pretest": "eslint lib test",
     "test": "mocha 'test/**/*.tests.js'",
-    "check-typescript": "tsc --noEmit lib/index.d.ts",
-    "prepare": "make mammoth.browser.min.js"
+    "check-typescript": "tsc --noEmit lib/index.d.ts"
   },
   "license": "BSD-2-Clause",
   "engines": {
